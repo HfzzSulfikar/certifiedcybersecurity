@@ -10,6 +10,10 @@
 
 body {
   margin: 0;
+  background-image: url(img/slfonweb.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .wk-desk-1 {
@@ -208,4 +212,23 @@ body {
   .wk-mobile-12 {
     width: 100%;
   }
+}
+
+.btn1{
+    background: transparent;
+    border: 1.50px solid white;
+    border-radius: 40px;
+    height: 60px;
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: calibri;
+}
+.under{
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    font-family: calibri;
+    font-size: 18px;
 }
