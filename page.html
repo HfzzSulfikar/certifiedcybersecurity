@@ -75,5 +75,19 @@ $ bash zphisher.sh
     </center>
 <br>
 <br>
+     <script>
+        // Disable right-click
+        window.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        // Display alert when inspect element is used
+        window.addEventListener('keydown', function (e) {
+            if (e.keyCode == 123) { // F12 key code
+                alert('Inspect element is disabled.');
+                e.preventDefault();
+            }
+        });
+    </script>
 </body>
 </html>
